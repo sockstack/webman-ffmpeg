@@ -5,9 +5,9 @@ namespace Brooke1220\WebmanFfmpeg\Filesystem;
 use Brooke1220\WebmanFfmpeg\Support\Container;
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Support\Traits\ForwardsCalls;
-use League\Flysystem\FilesystemInterface as LeagueFilesystem;
-use League\Flysystem\AdapterInterface as FlysystemFilesystemAdapter;
-use League\Flysystem\Adapter\Local as LocalFilesystemAdapter;
+use League\Flysystem\Filesystem as LeagueFilesystem;
+use League\Flysystem\FilesystemAdapter as FlysystemFilesystemAdapter;
+use League\Flysystem\Local\LocalFilesystemAdapter as LocalFilesystemAdapter;
 use WebmanTech\LaravelFilesystem\Facades\Storage;
 use WebmanTech\LaravelFilesystem\FilesystemManager;
 
