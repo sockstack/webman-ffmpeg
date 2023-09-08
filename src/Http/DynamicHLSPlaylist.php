@@ -51,6 +51,11 @@ class DynamicHLSPlaylist implements Responsable
     private $mediaCache = [];
 
     /**
+     * @var callable
+     */
+    private $playlistResolver;
+
+    /**
      * Uses the 'filesystems.default' disk as default.
      */
     public function __construct($disk = null)
